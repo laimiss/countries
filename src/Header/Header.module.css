@@ -28,3 +28,6 @@ button.current {
     font-weight: bolder;
     background-color: burlywood;
 }
+button:hover {
+    background-color: coral;
+}
