@@ -1,0 +1,30 @@
+.header {
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+
+.header>button {
+    background-color: bisque;
+    border: brown 1px solid;
+    height: 60px;
+    min-width: 100px;
+    cursor: pointer;
+}
+
+input[type=text] {
+    background-color: burlywood;
+    font-size: larger;
+    height: 60px;
+    margin-left: auto;
+}
+
+button.current {
+    color: black;
+    font-weight: bolder;
+    background-color: burlywood;
+}

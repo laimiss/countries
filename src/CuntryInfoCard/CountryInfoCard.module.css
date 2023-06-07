@@ -1,0 +1,34 @@
+.modal {
+    display: flex;
+    justify-content: center;
+}
+
+.infoCard {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    align-self: center;
+}
+
+.flag {
+    border: black 1px solid;
+}
+
+.close {
+    margin: 1em;
+    background-color: burlywood;
+    font-size: larger;
+    height: 3em;
+    border-radius: 10px;
+}
+
+.area::after {
+    content: " km²";
+}
+
+li.empty {
+    list-style: none;
+}

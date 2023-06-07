@@ -1,0 +1,24 @@
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid 1px gray;
+    width: 350px;
+    background-color: rgba(255,255,255,0.9);
+}
+.flag {
+    width: 100%;
+    border: black 1px solid;
+}
+.name {
+    padding: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.modal {
+    width: 500px;
+}
+.infoButton {
+    background-color: burlywood;
+    height: 4em;
+}
