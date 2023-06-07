@@ -7,4 +7,4 @@ async function getAllCountries() {
     return countries_data
 }
 
-module.exports = { getAllCountries }
+export { getAllCountries }
